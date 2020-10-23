@@ -33,14 +33,8 @@ class AppFirebase implements FirebaseRepository {
 
     if (apps.length == 0) {
       firebase.initializeApp(
-        apiKey: "AIzaSyDgP8mMJoxvDttEs2-yzyz2gv5BHI3bORE",
-        authDomain: "fernando-pulpin.firebaseapp.com",
-        databaseURL: "https://fernando-pulpin.firebaseio.com",
-        projectId: "fernando-pulpin",
-        storageBucket: "fernando-pulpin.appspot.com",
-        messagingSenderId: "188171066908",
-        appId: "1:188171066908:web:5efef75d1a923627d249d9",
-      );
+          //your keys
+          );
     }
   }
 }
